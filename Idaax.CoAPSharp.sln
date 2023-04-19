@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Idaax.CoAPSharp", "Idaax.CoAPSharp\Idaax.CoAPSharp.shproj", "{D74A246B-21B1-43F2-9C0C-2FDD2503009A}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "Idaax.nanoFramework.CoAPSharp", "Idaax.nanoFramework.CoAPSharp\Idaax.nanoFramework.CoAPSharp.nfproj", "{10157A02-5921-4D66-82F8-8A09CFD1DE6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Idaax.NetStandard.CoAPSharp", "Idaax.NetStandard.CoAPSharp\Idaax.NetStandard.CoAPSharp.csproj", "{A891D428-C0B3-4783-86C0-FE4E34C7BFCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Idaax.NetStandard.CoAPSharp.Samples", "Idaax.NetStandard.CoAPSharp.Samples\Idaax.NetStandard.CoAPSharp.Samples.csproj", "{5F217151-0BCD-42BD-A0CF-5BE26DB80E7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10157A02-5921-4D66-82F8-8A09CFD1DE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10157A02-5921-4D66-82F8-8A09CFD1DE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10157A02-5921-4D66-82F8-8A09CFD1DE6D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{10157A02-5921-4D66-82F8-8A09CFD1DE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10157A02-5921-4D66-82F8-8A09CFD1DE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10157A02-5921-4D66-82F8-8A09CFD1DE6D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A891D428-C0B3-4783-86C0-FE4E34C7BFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A891D428-C0B3-4783-86C0-FE4E34C7BFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A891D428-C0B3-4783-86C0-FE4E34C7BFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A891D428-C0B3-4783-86C0-FE4E34C7BFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F217151-0BCD-42BD-A0CF-5BE26DB80E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F217151-0BCD-42BD-A0CF-5BE26DB80E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F217151-0BCD-42BD-A0CF-5BE26DB80E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F217151-0BCD-42BD-A0CF-5BE26DB80E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70449B21-30AD-4B34-AC19-ECF9CF87456C}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Idaax.CoAPSharp\Idaax.CoAPSharp.projitems*{a891d428-c0b3-4783-86c0-fe4e34c7bfcd}*SharedItemsImports = 5
+		Idaax.CoAPSharp\Idaax.CoAPSharp.projitems*{d74a246b-21b1-43f2-9c0c-2fdd2503009a}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
