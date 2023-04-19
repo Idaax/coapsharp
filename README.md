@@ -25,4 +25,6 @@ Our developers have created an e-book for you to get started on CoAP and CoAPSha
 12. [Well-known NON server in CoAP](https://github.com/Idaax/coapsharp/blob/main/Idaax.NetStandard.CoAPSharp.Samples/BasicCoAPWellKnownNONServer.cs)
 
 ## Examples (For nanoFramework on ESP32)
-Coming soon!
+A basic CoAP NON Server is implemented [here](https://github.com/Idaax/coapsharp/tree/main/Idaax.nanoFramework.CoAPSharp.Samples)
+You follow the same process as .NET , however, you need to ensure that you are connected to the network before you begin.
+If you have only one ESP32, you can flash the code in ESP32 (the sample shows how to get the assigned IP address). Then, you can create the corresponding client or server on another machine and see the magic!
