@@ -12,11 +12,11 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <FileAlignment>512</FileAlignment>
-    <RootNamespace>nanoFramework.CoAPSharp</RootNamespace>
-    <AssemblyName>nanoFramework.CoAPSharp</AssemblyName>
+    <RootNamespace>Idaax.nanoFramework.CoAPSharp</RootNamespace>
+    <AssemblyName>Idaax.nanoFramework.CoAPSharp</AssemblyName>
     <TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
-    <PackageId>Idaax.CoAPSharp</PackageId>
-    <Title>nanoframework.CoAPSharp</Title>
+    <PackageId>Idaax.nanoFramework.CoAPSharp</PackageId>
+    <Title>Idaax.nanoFramework..CoAPSharp</Title>
     <Version>1.0.0</Version>
     <Company>Idaax Inc.</Company>
     <Product>CoAPSharp</Product>
@@ -62,7 +62,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\coapsharp_logo.jpg" />
+    <Content Include="assets\coapsharp_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\README.md" />
   </ItemGroup>
   <Import Project="..\Idaax.CoAPSharp\Idaax.CoAPSharp.projitems" Label="Shared" />
   <Import Project="..\Idaax.CoAPSharp\Idaax.CoAPSharp.projitems" Label="Shared" />
