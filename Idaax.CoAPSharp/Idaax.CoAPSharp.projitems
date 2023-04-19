@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d74a246b-21b1-43f2-9c0c-2fdd2503009a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Idaax.CoAPSharp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Channels\AbstractCoAPChannel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Channels\CoAPClientChannel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Channels\CoAPServerChannel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Channels\CoAPSyncClientChannel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Channels\ObserversList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Channels\SeparateResponseQueue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Channels\TimedQueue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Exceptions\CoAPFormatException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Exceptions\UndeliveredException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Exceptions\UnsupportedException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\AbstractByteUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\AbstractLogUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\AbstractNetworkUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\AbstractNumberUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\AbstractStringUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\AbstractURIUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\DefaultLogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\JSONResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\TextResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\AbstractCoAPMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPBlockOption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPContentFormatOption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPHeaderOption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPHeaderOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPMessageCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPMessageID.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPMessageType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPPayload.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPToken.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\CoAPVersion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Message\IParsable.cs" />
+  </ItemGroup>
+</Project>
