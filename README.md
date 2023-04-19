@@ -10,7 +10,7 @@ Do follow us on Twitter [@CoAPSharp](https://twitter.com/coapsharp) for latest n
 ## Free e-book on CoAP with examples in CoAPSharp
 Our developers have created an e-book for you to get started on CoAP and CoAPSharp. All examples in the book are also provided in this repository.
 
-## Examples
+## Examples (For .NET Standard)
 1. [Block transfer in CoAP - Client](https://github.com/Idaax/coapsharp/blob/main/Idaax.NetStandard.CoAPSharp.Samples/BasicCoAPBlockTransferPUTClient.cs)
 2. [Block transfer in CoAP - Server](https://github.com/Idaax/coapsharp/blob/main/Idaax.NetStandard.CoAPSharp.Samples/BasicCoAPBlockTransferPUTServer.cs)
 3. [CON client in CoAP](https://github.com/Idaax/coapsharp/blob/main/Idaax.NetStandard.CoAPSharp.Samples/BasicCoAPCONClient.cs)
@@ -23,3 +23,6 @@ Our developers have created an e-book for you to get started on CoAP and CoAPSha
 10. [Separate response server in CoAP](https://github.com/Idaax/coapsharp/blob/main/Idaax.NetStandard.CoAPSharp.Samples/BasicCoAPSeparateResponseClient.cs)
 11. [Well-known NON client in CoAP](https://github.com/Idaax/coapsharp/blob/main/Idaax.NetStandard.CoAPSharp.Samples/BasicCoAPWellKnownNONClient.cs)
 12. [Well-known NON server in CoAP](https://github.com/Idaax/coapsharp/blob/main/Idaax.NetStandard.CoAPSharp.Samples/BasicCoAPWellKnownNONServer.cs)
+
+## Examples (For nanoFramework on ESP32)
+Coming soon!
