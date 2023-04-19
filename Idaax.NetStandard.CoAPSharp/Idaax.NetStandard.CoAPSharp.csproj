@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Idaax.NetStandard.CoAPSharp</Title>
+    <Description>CoAPSharp library for .NET Standard based projects</Description>
+    <Copyright>2023 All rights reserved</Copyright>
+    <PackageProjectUrl>https://github.com/idaax/coapsharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/idaax/coapsharp</RepositoryUrl>
+    <PackageTags>CoAP;CoAPSharp</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Company>Idaax Inc.</Company>
+    <Product>CoAPSharp</Product>
+    <PackageIcon>coapsharp_logo.jpg</PackageIcon>
+    <Authors>Idaax Inc.</Authors>
+  </PropertyGroup>
+
+  <Import Project="..\Idaax.CoAPSharp\Idaax.CoAPSharp.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <Content Include="assets\coapsharp_logo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Idaax.nanoFramework.CoAPSharp\assets\coapsharp_logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
