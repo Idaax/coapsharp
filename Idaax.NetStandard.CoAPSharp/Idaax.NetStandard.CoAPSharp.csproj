@@ -1,29 +1,37 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Idaax.NetStandard.CoAPSharp</Title>
-    <Description>CoAPSharp library for .NET Standard based projects</Description>
+    <Description>CoAPSharp library for .NET based projects</Description>
     <Copyright>2023 All rights reserved</Copyright>
     <PackageProjectUrl>https://github.com/idaax/coapsharp</PackageProjectUrl>
     <RepositoryUrl>https://github.com/idaax/coapsharp</RepositoryUrl>
     <PackageTags>CoAP;CoAPSharp</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>assets\README.md</PackageReadmeFile>
     <Company>Idaax Inc.</Company>
     <Product>CoAPSharp</Product>
-    <PackageIcon>coapsharp_logo.jpg</PackageIcon>
+    <PackageIcon>assets\coapsharp_logo.png</PackageIcon>
     <Authors>Idaax Inc.</Authors>
   </PropertyGroup>
 
   <Import Project="..\Idaax.CoAPSharp\Idaax.CoAPSharp.projitems" Label="Shared" />
 
   <ItemGroup>
-    <Content Include="assets\coapsharp_logo.jpg" />
+    <Content Include="assets\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\coapsharp_logo.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\Idaax.nanoFramework.CoAPSharp\assets\coapsharp_logo.jpg">
+    <None Update="assets\coapsharp_logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="assets\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
