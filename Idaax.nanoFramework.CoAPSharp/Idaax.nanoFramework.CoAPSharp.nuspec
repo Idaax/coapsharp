@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Idaax.nanoFramework.CoAPSharp</id>
+    <version>1.0.0</version>
+    <title>Idaax.nanoFramework.CoAPSharp</title>
+    <authors>Idaax Inc.</authors>
+	<icon>assets\coapsharp_logo.jpg</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    
+    <projectUrl>https://github.com/Idaax/coapsharp</projectUrl>
+    <description>CoAPSharp library for nanoFramework based microcontroller projects</description>
+    <releaseNotes>First version for nanoFramework runtime</releaseNotes>
+    <copyright>(c) 2023 All rights reserved</copyright>
+    <tags>nanoFramework ESP32 STM32</tags>
+	<dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="1.14.2" />
+	  <dependency id="nanoFramework.System.Collections" version="1.5.18"/>
+	  <dependency id="nanoFramework.System.Math" version="1.5.29"/>
+	  <dependency id="nanoFramework.System.Net" version="1.10.52"/>
+    </dependencies>
+  </metadata>
+</package>
