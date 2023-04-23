@@ -3,7 +3,7 @@ CoAPSharp was the world's first [Constraind Application Protocol (CoAP)](https:/
 
 This release of CoAPSharp is now qualified for the nanoFramework runtime. It contains the following:
 * The core CoAPSharp library
-* The security codebase that implements our patented authentication and payload encryption techniques
+* Samples that outline how to use the library
 
 Do follow us on Twitter [@CoAPSharp](https://twitter.com/coapsharp) for latest news, updates, samples and announcements related to this library.
 
